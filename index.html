@@ -9,23 +9,85 @@
   <style>
    h1{color:aquamarine;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow:2px 2px#c0c0c0;}
     h2{color: #123456;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
-    h3{color:rgb(223, 220, 245);font-family:monospace}
-    h4{color:coral; font-family:'Times New Roman', Times, serif;text-shadow: 2px 2px 5px #000;}
+    h3{color:rgb(27, 6, 192);font-family:monospace}
+    h4{color:coral; font-family:'Times New Roman', Times, serif;text-shadow: 2px 2px 4px #000;}
     h5{color:blueviolet;font-family:cursive}
     h6{color:#334467;font-size:15px}
+    button{
+      background-color: cadetblue;
+      color: white;
+      padding: 5px 20px 5px 20px
+      border: none;
+      border-radius: 10px 0;
+    }
+    p{font-size: 12px;color:crimson}
+    table{
+      width:100%;
+    }
+    table, th, td{
+      border: 1px solid black;
+      border-collapse: collapse;
+    
+    }
+    th{
+      text-align: center;
+    }
+    tr:hover{
+      background-color: rgb(224, 227, 230);
+    }
 
   </style>
 </head>
 
 <body>
-  <h1>Hello, Semua Selamat Pagi</h1>
+  <h1>Hellow, Semua Selamat Pagi</h1>
   <h2>apa kabar?<h2>
-    <h3>yang semangat yang semangat</h3>
+    <h3>yang semangat dong yang semangat dong</h3>
     <h4>oke</h4>
     <h5>sip</h5>
     <h6>siapp</h6>
 
-  <button onclick="console.log('pencet dong');">senggol dong</button>
+    <p><u>hari ini saya makan</u>, <strong>mandi</strong>, <b>tidur</b>, <br> makan lagi, <i>mandi lagi</i>, tidur lagi, tapi tidak lupa juga menghirup udara segar 0<sub>2</sub> ya ges ya, lalu jangan lupa sambil memandang halaman rumah yang tidak begitu luas sekitar 100m<sup>2</sup></p>
+    <p>
+      sambil bengong dan melamun jangan lupa juga minum segelas kopi maka melamun akan terlihat lebih menyenangkan 
+    <h3>list kegiatan</h3>
+    <ul style="color:orange">
+      <li>belajar</li>
+      <li>cuci baju</li>
+    </ul>
+    <hr>
+    <ol style="color:purple; list-style: lower-alpha;">
+      <li>ngerjain tugas</li>
+      <li>makan</li>
+    </ol>
+    </p>
+    <p>
+      <h3>tabel harga</h3>
+      <table>
+        <thead>
+          <tbody>
+        <tr>
+          <th>Nomor</th>
+          <th>Item Barang</th>
+          <th>Harga Satuan</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>sayur</td>
+          <td>2.000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>buah</td>
+          <td>10.000</td>
+        </tr>
+        <thead>
+          <tbody>
+      </table>
+    </p>
+
+
+  <button onclick="console.log('pencet dong');">pencet dong</button>
 
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
