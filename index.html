@@ -34,6 +34,35 @@
     }
     tr:hover{
       background-color: rgb(224, 227, 230);
+
+      }
+      img{
+        width: 50px;
+        height: 50px;
+      }
+
+      label{font-size: 14px;font-weight:bold;}
+      input[type=text],input[type=number],input[type=date],input[type=time],input[type=password]{
+        width: 100%;;
+        padding: 12px 20px;
+        border-radius: 5px;
+        margin: 8px 0;
+        color : white(255,255,255);
+        background-color :#c0c0c0;
+        font size : 26pc;
+    }
+    select{
+      width:100%;
+      padding : 12px 20px;
+      border-radius: 5px;
+        margin: 8px 0;
+        color : white(255,255,255);
+        background-color :#c0c0c0;
+        font size : 26pc;
+      
+    }
+    input[type=checkbox],input[type=radio]{
+      outline : 1px solid #c0c0c0
     }
 
   </style>
@@ -49,7 +78,10 @@
 
     <p><u>hari ini saya makan</u>, <strong>mandi</strong>, <b>tidur</b>, <br> makan lagi, <i>mandi lagi</i>, tidur lagi, tapi tidak lupa juga menghirup udara segar 0<sub>2</sub> ya ges ya, lalu jangan lupa sambil memandang halaman rumah yang tidak begitu luas sekitar 100m<sup>2</sup></p>
     <p>
-      sambil bengong dan melamun jangan lupa juga minum segelas kopi maka melamun akan terlihat lebih menyenangkan 
+      sambil bengong dan melamun jangan lupa juga minum segelas kopi maka melamun akan terlihat lebih menyenangkan
+
+      <img src="awan.webp">
+
     <h3>list kegiatan</h3>
     <ul style="color:orange">
       <li>belajar</li>
@@ -90,5 +122,38 @@
   <button onclick="console.log('pencet dong');">pencet dong</button>
 
   <script defer type="text/javascript" src="/main.js"></script>
+
+  
+  <form>
+    <label>from text</label>
+    <input type="text" name="txalamat" value="isikan alamat" id="txalamat" class="txalamat">
+    <label>form number</label>
+    <input type="number">
+    <label>form TGL</label>
+    <input type="date">
+    <label>form waktu</label>
+    <input type="time">
+    <label>form pilihan</label>
+    <input type="radio" name="jnsk">laki-laki
+      <input type="radio" name="jnsk">perempuan
+      <br>
+      <input type="checkbox">sepak bola 
+      <input type="checkbox">silat
+      <input type="checkbox">tinju
+      <input type="checkbox">acting
+      
+      <label>form pilihan lain</label>
+      <select>
+        <option disabled selected>silahkan pilih warna</option>
+        <option>merah</option>
+        <option>putih</option>
+        <option>biru</option>
+      </select>
+<label>form passwors</label>
+<input type="password" name="txPASS">
+
+      <input type="submit" value="tombol">
+  </form>
+
 </body>
 </html>
